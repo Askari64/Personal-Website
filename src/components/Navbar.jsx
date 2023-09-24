@@ -24,19 +24,33 @@ const Navbar = () => {
       </div>
 
       <ul className="inline-flex items-center font-poppins text-[21px] font-normal leading-normal tracking-[0.63px] space-x-[24px] cursor-pointer">
-        <li><a href="#home"> Home </a></li>
-        <li><a href="#about-me">About Me</a></li>
-        <li>Services</li>
-        <li>Projects</li>
-        <li>Contact</li>
         <li>
-          <a href="https://drive.google.com/file/d/1ReNwFoWJbiucfW1PMFZXdK50xMnVuMmX/view?usp=sharing" download="AskariResume.pdf">
-          <button
-            type="button"
-            className="w-[188px] h-[52px] rounded-[5px] bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700"
+          <a href="#home"> Home </a>
+        </li>
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          {" "}
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#project">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1ReNwFoWJbiucfW1PMFZXdK50xMnVuMmX/view?usp=sharing"
+            download="AskariResume.pdf"
           >
-            Download CV
-          </button>
+            <button
+              type="button"
+              className="w-[188px] h-[52px] rounded-[5px] bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700"
+            >
+              Download CV
+            </button>
           </a>
         </li>
       </ul>

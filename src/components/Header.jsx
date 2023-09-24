@@ -24,7 +24,7 @@ const Header = () => {
         <h1 className="text-black font-poppins text-[100px] font-bold leading-[120px] tracking-[3px] w-[383px] h-[120px] top-[174px] ml-[230px]">
           Developer
         </h1>
-        <p className="text-black-400 font-poppins text-[21px] leading-normal tracking-[0.64px] w-[600px] h-[full] top-[400px] ml-[56px] mt-[28px]">
+        <p className="text-gray-800 font-poppins text-[28px] leading-normal tracking-[0.64px] w-[600px] h-[full] top-[400px] ml-[56px] mt-[28px]">
           Enthusiastic and a Quick learner.
           <br /> Eager to work and gain valuable experience
         </p>
@@ -39,10 +39,13 @@ const Header = () => {
           </a>
         </button>
       </div>
-      <div className="mr-[56px]" >
-  <img src={reactLogo} className="w-full max-w-[300px] h-[300px] flex justify-center mt-[80px] mr-[56px] animate-[spin_10s_linear_infinite] " alt="React logo" />
-</div>
-
+      <div className="mr-[56px]">
+        <img
+          src={reactLogo}
+          className="w-full max-w-[300px] h-[300px] flex justify-center mt-[80px] mr-[56px] animate-[spin_10s_linear_infinite] "
+          alt="React logo"
+        />
+      </div>
     </header>
   );
 };
