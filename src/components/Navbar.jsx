@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <nav className="flex flex-col  bg-slate-600 md:flex-row justify-between items-center space-y-2 lg:space-y-0">
       <div className="flex justify-between items-center space-x-2 mr-[15px] md:mx-0 w-screen md:w-screen">
-        <p className="text-[#ffffff] font-montserrat font-bold text-[18px] md:text-[36px] lg:text-[48px] leading-normal">
+        <p className="text-[#ffffff] font-montserrat ml-[15px] font-bold text-[18px] md:text-[36px] lg:text-[48px] leading-normal">
           Askari
         </p>
         {window.innerWidth <= 800 && (
