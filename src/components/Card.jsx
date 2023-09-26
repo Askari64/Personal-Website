@@ -2,11 +2,11 @@ import React from "react";
 
 const Card = ({ title, content }) => {
   return (
-    <div className="w-[330px] h-[346px] bg-opacity-80 backdrop-blur-lg bg-sky-400 rounded-[14px] p-6 m-4">
-      <h2 className="text-black text-[32px] font-semibold text-center font-poppins">
+    <div className="w-[330px] h-[346px] rounded-[14px] p-6 m-4 relative overflow-hidden bg-slate-900">
+      <h2 className="text-[32px] font-bold text-center text-white font-poppins">
         {title}
       </h2>
-      <p className="text-gray-800 text-[19px] mt-[24px] font-normal text-center font-poppins">
+      <p className="text-[19px] mt-[24px] font-semibold text-center text-gray-400 font-poppins">
         {content}
       </p>
     </div>

@@ -2,14 +2,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center bg-gray-200 dark:bg-gray-200 text-center text-white dark:text-neutral-200 mt-[50px]">
+    <footer className="flex flex-col items-center bg-slate-600 text-white text-center">
       <div className="container pt-9">
         <div className="mb-9 flex justify-center">
           <a
             href="https://www.instagram.com/askari.rizv/"
-            className="mr-9 text-black"
+            className="mr-9"
           >
-            <svg
+           <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
               fill="currentColor"
@@ -20,9 +20,9 @@ const Footer = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/syed-mohammed-askari-rizvi-a9b4061a3"
-            className="mr-9 text-black"
+            className="mr-9"
           >
-            <svg
+             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
               fill="currentColor"
@@ -31,8 +31,8 @@ const Footer = () => {
               <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
             </svg>
           </a>
-          <a href="https://github.com/Askari64" className="text-black">
-            <svg
+          <a href="https://github.com/Askari64">
+          <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4"
               fill="currentColor"
@@ -44,10 +44,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
+      <div className="w-full bg-slate-600 p-4 text-center">
         © 2023 Copyright:{" "}
         <a
-          className="text-neutral-800 dark:text-neutral-400"
+          className="text-cyan-500 hover:underline"
           href="https://github.com/Askari64"
         >
           Askari Rizvi

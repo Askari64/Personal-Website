@@ -8,10 +8,10 @@ const Projects = () => {
   return (
     <div
       id="project"
-      className="w-[90%] h-full mt-[50px] ml-[56px] flex justify-center flex-col overflow-x-hidden"
+      className="w-full flex flex-col items-center justify-center bg-slate-900 overflow-x-hidden overflow-y-auto py-5 relative"
     >
       <hr />
-      <h2 className="flex  w-[400px] h-[98px] font-poppins text-black text-[65px] font-semibold leading-normal tracking-[1.95px] mx-auto">
+      <h2 className="text-white text-center font-poppins text-[30px] md:text-[48px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px] font-semibold leading-normal tracking-[0.95px] w-full">
         My Projects
       </h2>
       <div className="flex justify-center w-full gap-[50px] mt-[80px] flex-wrap">
