@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div
       id="about-me"
-      className="w-full h-screen flex flex-col items-center justify-center bg-slate-900 overflow-x-hidden overflow-y-auto py-5 relative"
+      className="w-full h-screen flex flex-col items-center justify-center bg-slate-900 overflow-x-hidden py-5 relative"
     >
       <div className="mt-[56px] md:mt-[16px] text-center space-y-5">
         <h2 className="text-white text-[24px] md:text-[32px] lg:text-[48px] font-semibold leading-normal tracking-[0.72px]">

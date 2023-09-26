@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="w-full h-screen flex flex-col items-center justify-center bg-slate-800 overflow-x-hidden overflow-y-auto py-5 relative"
+      className="w-full h-screen flex flex-col items-center justify-center bg-slate-800 overflow-x-hidden py-5 relative"
     >
       <hr />
       <h1 className="text-white text-center font-poppins text-[30px] md:text-[48px] lg:text-[65px] xl:text-[80px] 2xl:text-[100px] font-semibold leading-normal tracking-[0.95px] w-full">
