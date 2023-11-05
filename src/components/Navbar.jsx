@@ -59,7 +59,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1ReNwFoWJbiucfW1PMFZXdK50xMnVuMmX/view?usp=sharing"
+            href="https://drive.google.com/file/d/1sp-nvhrWzv-oj79ilc03NlYakLtxbZS-/view?usp=drivesdk"
             download="AskariResume.pdf"
           >
             <button
