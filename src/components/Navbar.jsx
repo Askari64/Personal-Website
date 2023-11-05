@@ -10,17 +10,15 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMenuOpen(window.innerWidth <= 800);
+      setIsMenuOpen(window.innerWidth > 800);
     };
-
-    handleResize();
 
     window.addEventListener("resize", handleResize);
 
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [window.innerWidth]);
+  }, []);
 
   return (
     <nav className="flex flex-col w-full bg-slate-600 md:flex-row justify-between items-center space-y-2 lg:space-y-0">
@@ -30,7 +28,7 @@ const Navbar = () => {
         </p>
         {window.innerWidth <= 800 && (
           <button
-            className={`${isMenuOpen ? "lg:hidden" : "block"}`}
+            className="block"
             onClick={toggleMenu}
             aria-label="Toggle Menu"
           >
@@ -60,7 +58,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <li>
-        <a
+          <a
             href="https://drive.google.com/file/d/1ReNwFoWJbiucfW1PMFZXdK50xMnVuMmX/view?usp=sharing"
             download="AskariResume.pdf"
           >
